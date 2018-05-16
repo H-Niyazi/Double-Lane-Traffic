@@ -25,7 +25,7 @@ typedef struct
   int lane;         // which lane is the car on
   int x;            // position of the car on the corresponding lane
   int d_same_f;     // distance to the car ahead in the same lane
-  int d_same_b;     // distance to the car ahead in the same lane
+  int d_same_b;     // distance to the car in the back on the same lane
   int d_other_b;    // distance to the car in the back on other lane
   int d_other_f;    // distance to the car in the front on other lane
 } car;
